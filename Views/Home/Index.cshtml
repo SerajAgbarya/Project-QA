@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>User Login and Registration</title>
+</head>
+<body>
+    <h1>User Login</h1>
+    <form action="/user/login" method="post">
+        <div>
+            <label for="login-username">Username:</label>
+            <input type="text" id="login-username" name="username" required>
+        </div>
+        <div>
+            <label for="login-password">Password:</label>
+            <input type="password" id="login-password" name="password" required>
+        </div>
+        <div>
+            <button type="submit">Login</button>
+        </div>
+    </form>
+
+    <h1>User Registration</h1>
+    <form action="/user/register" method="post">
+        <div>
+            <label for="register-username">Username:</label>
+            <input type="text" id="register-username" name="username" required>
+        </div>
+        <div>
+            <label for="register-password">Password:</label>
+            <input type="password" id="register-password" name="password" required>
+        </div>
+        <div>
+            <button type="submit">Register</button>
+        </div>
+    </form>
+</body>
+</html>
