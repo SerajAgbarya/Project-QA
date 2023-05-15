@@ -1,0 +1,27 @@
+﻿@model User
+<link rel="stylesheet" href="~/css/tee.css" />
+<h2>Register</h2>
+
+@using (Html.BeginForm("Register", "User", FormMethod.Post))
+{
+    @Html.ValidationSummary()
+
+    <div>
+        @Html.LabelFor(model => model.Username)
+        @Html.TextBoxFor(model => model.Username)
+        @Html.ValidationMessageFor(model => model.Username)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.Id)
+        @Html.TextBoxFor(model => model.Id)
+        @Html.ValidationMessageFor(model => model.Id)
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.Password)
+        @Html.PasswordFor(model => model.Password)
+        @Html.ValidationMessageFor(model => model.Password)
+    </div>
+
+    <button type="submit">Register</button>
+}

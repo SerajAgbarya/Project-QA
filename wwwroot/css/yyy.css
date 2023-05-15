@@ -1,0 +1,53 @@
+﻿<style >
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+p {
+    font-style: italic;
+    color: #888;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+    a:hover {
+        background-color: #45a049;
+    }
+
+</style >
+
+@model List<Bird >
+
+<h2 > Birds</h2 >
+
+@if (Model == null || Model.Count == 0) {
+    <p>No birds available.</p>
+}
+
+else {
+    <table> <thead> <tr> <th>Serial Number</th> <th>Species</th> <th>Subspecies</th> <th>Hatch Date</th> <th>Cage Number</th> <th>Master Serial Number</th> </tr> </thead> <tbody> @foreach (var bird in Model)
+
+{
+    <tr>

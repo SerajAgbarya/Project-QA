@@ -1,0 +1,24 @@
+﻿@model User
+<link rel="stylesheet" href="~/css/srr.css" />
+<h2>Login</h2>
+
+@using (Html.BeginForm("Login", "User", FormMethod.Post))
+{
+    @Html.ValidationSummary()
+
+        <div>
+        @Html.LabelFor(model => model.Username)
+        @Html.TextBoxFor(model => model.Username)
+        @Html.ValidationMessageFor(model => model.Username)
+        </div>
+
+        <div>
+        @Html.LabelFor(model => model.Password)
+        @Html.PasswordFor(model => model.Password)
+        @Html.ValidationMessageFor(model => model.Password)
+        </div>
+
+        <button type="submit">Login</button>
+    <li><a class="logout" href="@Url.Action("Register", "User")">sign up</a></li>
+    <li><a class="logout" href="@Url.Action("index", "Home")">logout</a></li>
+}

@@ -1,0 +1,59 @@
+﻿@model Bird
+<link rel="stylesheet" href="~/css/rr.css" />
+<h2>Create Bird</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.SerialNumber)
+        @Html.EditorFor(model => model.SerialNumber, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.SerialNumber, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Species)
+        @Html.EditorFor(model => model.Species, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.Species, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Subspecies)
+        @Html.EditorFor(model => model.Subspecies, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.Subspecies, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.HatchDate)
+        @Html.EditorFor(model => model.HatchDate, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.HatchDate, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CageNumber)
+        @Html.EditorFor(model => model.CageNumber, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.CageNumber, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.MasterSerialNumber)
+        @Html.EditorFor(model => model.MasterSerialNumber, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.MasterSerialNumber, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+}
+
+<div>
+    <li>
+        <a class="homepage"
+           href="@Url.Action("Homepage", "Home")">go to homepage</a>
+    <li>
+        <a class="back to views birds"
+           href="@Url.Action("Index1", "Bird")">views birds </a>
+    </li>
+    </li>
+</div>

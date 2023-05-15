@@ -1,0 +1,38 @@
+﻿@model List<Bird>
+<link rel="stylesheet" href="~/css/yyy.css" />
+<h2>Birds</h2>
+
+@if (Model == null || Model.Count == 0)
+{
+    <p>No birds available.</p>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Serial Number</th>
+                <th>Species</th>
+                <th>Subspecies</th>
+                <th>Hatch Date</th>
+                <th>Cage Number</th>
+                <th>Master Serial Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var bird in Model)
+            {
+                <tr>
+                    <td>@bird.SerialNumber</td>
+                    <td>@bird.Species</td>
+                    <td>@bird.Subspecies</td>
+                    <td>@bird.HatchDate</td>
+                    <td>@bird.CageNumber</td>
+                    <td>@bird.MasterSerialNumber</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<a href="@Url.Action("Create", "Bird")">Add New Bird</a>
