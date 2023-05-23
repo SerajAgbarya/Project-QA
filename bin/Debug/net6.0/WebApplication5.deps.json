@@ -7,6 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "WebApplication5/1.0.0": {
+<<<<<<< HEAD
         "dependencies": {
           "ClosedXML": "0.101.0",
           "EPPlus": "6.2.3",
@@ -1368,6 +1369,11 @@
             "fileVersion": "1.5.2.0"
           }
         }
+=======
+        "runtime": {
+          "WebApplication5.dll": {}
+        }
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
       }
     }
   },
@@ -1376,6 +1382,7 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+<<<<<<< HEAD
     },
     "Azure.Core/1.24.0": {
       "type": "package",
@@ -2356,6 +2363,8 @@
       "sha512": "sha512-8tnUCmMbn6c/HGuHFyq1sulHym8YReTKDNXFFQk0U8nldNx6RGrwRvLh0+aQjEc7YoC3Q1ztH1npLt7dClKqjw==",
       "path": "xlparser/1.5.2",
       "hashPath": "xlparser.1.5.2.nupkg.sha512"
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
     }
   }
 }

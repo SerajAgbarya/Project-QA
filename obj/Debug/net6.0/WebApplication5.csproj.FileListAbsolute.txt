@@ -29,6 +29,7 @@ C:\Users\USER\source\repos\WebApplication5\WebApplication5\obj\Debug\net6.0\refi
 C:\Users\USER\source\repos\WebApplication5\WebApplication5\obj\Debug\net6.0\WebApplication5.pdb
 C:\Users\USER\source\repos\WebApplication5\WebApplication5\obj\Debug\net6.0\WebApplication5.genruntimeconfig.cache
 C:\Users\USER\source\repos\WebApplication5\WebApplication5\obj\Debug\net6.0\ref\WebApplication5.dll
+<<<<<<< HEAD
 C:\Users\USER\Desktop\Project-QA\obj\Debug\net6.0\WebApplication5.csproj.AssemblyReference.cache
 C:\Users\USER\Desktop\Project-QA\obj\Debug\net6.0\WebApplication5.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\USER\Desktop\Project-QA\obj\Debug\net6.0\WebApplication5.AssemblyInfoInputs.cache
@@ -123,3 +124,5 @@ C:\Users\USER\Desktop\Project-QA\bin\Debug\net6.0\SixLabors.Fonts.dll
 C:\Users\USER\Desktop\Project-QA\bin\Debug\net6.0\System.IO.Packaging.dll
 C:\Users\USER\Desktop\Project-QA\bin\Debug\net6.0\XLParser.dll
 C:\Users\USER\Desktop\Project-QA\bin\Debug\net6.0\database.xlsx
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978

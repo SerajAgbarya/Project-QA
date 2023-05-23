@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+=======
+<Project Sdk="Microsoft.NET.Sdk.Web">
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -7,6 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <PackageReference Include="ClosedXML" Version="0.101.0" />
     <PackageReference Include="EPPlus" Version="6.2.3" />
     <PackageReference Include="FluentValidation" Version="11.5.2" />
@@ -18,6 +23,10 @@
     <None Update="database.xlsx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+=======
+    <PackageReference Include="EPPlus" Version="6.2.3" />
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
   </ItemGroup>
 
 </Project>

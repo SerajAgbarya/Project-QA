@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -17,6 +18,12 @@ services.AddTransient<UserValidator>(provider => new UserValidator(provider.GetR
 
 // Set ExcelPackage license context
 ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+=======
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.AddControllersWithViews();
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
 
 var app = builder.Build();
 
@@ -24,6 +31,10 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
+<<<<<<< HEAD
+=======
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
     app.UseHsts();
 }
 
@@ -38,6 +49,7 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+<<<<<<< HEAD
 app.MapControllerRoute(
     name: "user",
     pattern: "User/{action=Login}/{id?}",
@@ -52,4 +64,6 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Brid}/{action=Index1}/{id?}");
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
 app.Run();

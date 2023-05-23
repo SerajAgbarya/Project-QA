@@ -2,6 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
+<<<<<<< HEAD
       "Azure.Core/1.24.0": {
         "type": "package",
         "dependencies": {
@@ -82,6 +83,8 @@
           }
         }
       },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
       "EPPlus/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -125,6 +128,7 @@
           "lib/net6.0/EPPlus.System.Drawing.dll": {}
         }
       },
+<<<<<<< HEAD
       "ExcelNumberFormat/1.1.0": {
         "type": "package",
         "compile": {
@@ -138,6 +142,8 @@
           }
         }
       },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
       "FluentValidation/11.5.2": {
         "type": "package",
         "compile": {
@@ -151,6 +157,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Irony.NetCore/1.0.11": {
         "type": "package",
         "dependencies": {
@@ -372,6 +379,8 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -389,6 +398,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -396,16 +406,31 @@
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+=======
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
             "related": ".xml"
           }
         },
         "runtime": {
+<<<<<<< HEAD
           "lib/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+=======
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
         }
       },
       "Microsoft.Extensions.Configuration.FileExtensions/6.0.0": {
@@ -448,6 +473,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.DependencyInjection/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -483,6 +509,8 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
       "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -539,6 +567,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -598,6 +627,9 @@
         }
       },
       "Microsoft.Extensions.Primitives/7.0.0": {
+=======
+      "Microsoft.Extensions.Primitives/6.0.0": {
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
         "type": "package",
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -613,6 +645,7 @@
           }
         },
         "build": {
+<<<<<<< HEAD
           "buildTransitive/net6.0/_._": {}
         }
       },
@@ -744,6 +777,9 @@
           "lib/net6.0/Microsoft.IdentityModel.Tokens.dll": {
             "related": ".xml"
           }
+=======
+          "buildTransitive/netcoreapp3.1/_._": {}
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
         }
       },
       "Microsoft.IO.RecyclableMemoryStream/2.2.1": {
@@ -759,6 +795,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.NETCore.Platforms/5.0.0": {
         "type": "package",
         "compile": {
@@ -826,6 +863,8 @@
           }
         }
       },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
       "Microsoft.Win32.SystemEvents/6.0.0": {
         "type": "package",
         "compile": {
@@ -848,6 +887,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -1224,6 +1264,8 @@
           }
         }
       },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
       "System.Drawing.Common/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -1269,6 +1311,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< HEAD
       "System.Globalization/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1793,6 +1836,8 @@
           }
         }
       },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
@@ -1809,6 +1854,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< HEAD
       "System.Runtime.Extensions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2068,6 +2114,8 @@
           }
         }
       },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
       "System.Security.Cryptography.Pkcs/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -2093,6 +2141,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "System.Security.Cryptography.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2228,6 +2277,8 @@
           }
         }
       },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
       "System.Text.Encoding.CodePages/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -2253,6 +2304,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "System.Text.Encoding.Extensions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2267,6 +2319,8 @@
           }
         }
       },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
       "System.Text.Encodings.Web/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -2311,6 +2365,7 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+<<<<<<< HEAD
       },
       "System.Text.RegularExpressions/4.3.0": {
         "type": "package",
@@ -2461,10 +2516,13 @@
         "runtime": {
           "lib/netstandard1.6/XLParser.dll": {}
         }
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
       }
     }
   },
   "libraries": {
+<<<<<<< HEAD
     "Azure.Core/1.24.0": {
       "sha512": "+/qI1j2oU1S4/nvxb2k/wDsol00iGf1AyJX5g3epV7eOpQEP/2xcgh/cxgKMeFgn3U2fmgSiBnQZdkV+l5y0Uw==",
       "type": "package",
@@ -2541,6 +2599,8 @@
         "lib/netstandard2.0/DocumentFormat.OpenXml.xml"
       ]
     },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
     "EPPlus/6.2.3": {
       "sha512": "Lyp6zJHNU1QaDIcSheBCazqlqgs+8ByHGYwU9vEsbY7EQfPhd0nnejcHrM5DqaWdoXvKuyPoWBYNSz3iIyUNUQ==",
       "type": "package",
@@ -2608,6 +2668,7 @@
         "readme.md"
       ]
     },
+<<<<<<< HEAD
     "ExcelNumberFormat/1.1.0": {
       "sha512": "R3BVHPs9O+RkExbZYTGT0+9HLbi8ZrNij1Yziyw6znd3J7P3uoIR07uwTLGOogtz1p6+0sna66eBoXu7tBiVQA==",
       "type": "package",
@@ -2626,6 +2687,8 @@
         "lib/netstandard2.0/ExcelNumberFormat.xml"
       ]
     },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
     "FluentValidation/11.5.2": {
       "sha512": "kj/hW/iusp2zq1Vt1YPLgDj6UG0DhoJXGkLwjLwm3j7vUtRF8DVA5vHJfItG3BxDjLWJUR2pvw8fK7rnuysZNA==",
       "type": "package",
@@ -2649,6 +2712,7 @@
         "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
+<<<<<<< HEAD
     "Irony.NetCore/1.0.11": {
       "sha512": "/2MCkqdhEjPiSTZKYXg6u9AO9o3m68biqcFHAnM28WdnrcZii2vYbmKPzT5ejByyV72FUlygOtHBMt8SLnUyNw==",
       "type": "package",
@@ -2958,6 +3022,8 @@
         "useSharedDesignerContext.txt"
       ]
     },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
     "Microsoft.Extensions.Configuration/6.0.0": {
       "sha512": "tq2wXyh3fL17EMF2bXgRhU7JrbO3on93MRKYxzz4JzzvuGSA1l0W3GI9/tl8EO89TH+KWEymP7bcFway6z9fXg==",
       "type": "package",
@@ -2977,16 +3043,24 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
       "sha512": "f34u2eaqIjNO9YLHBz8rozVZ+TcFiFs0F3r7nUJd7FRkVSxk8u4OpoK226mi49MwexHOR2ibP9MFvRUaLilcQQ==",
       "type": "package",
       "path": "microsoft.extensions.configuration.abstractions/7.0.0",
+=======
+    "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
+      "sha512": "qWzV9o+ZRWq+pGm+1dF+R7qTgTYoXvbyowRoBxQJGfqTpqDun2eteerjRQhq5PQ/14S+lqto3Ft4gYaRyl4rdQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/6.0.0",
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+<<<<<<< HEAD
         "buildTransitive/net461/Microsoft.Extensions.Configuration.Abstractions.targets",
         "buildTransitive/net462/_._",
         "buildTransitive/net6.0/_._",
@@ -3000,6 +3074,13 @@
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
         "microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+=======
+        "lib/net461/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
         "microsoft.extensions.configuration.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -3044,6 +3125,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.DependencyInjection/7.0.0": {
       "sha512": "elNeOmkeX3eDVG6pYVeV82p29hr+UKDaBhrZyWvWLw/EVZSYEkZlQdkp0V39k/Xehs2Qa0mvoCvkVj3eQxNQ1Q==",
       "type": "package",
@@ -3102,6 +3184,8 @@
         "useSharedDesignerContext.txt"
       ]
     },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
     "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
       "sha512": "0pd4/fho0gC12rQswaGQxbU34jOS1TPS8lZPpkFCH68ppQjHNHYle9iRuHeev1LhrJ94YPvzcRd8UmIuFk23Qw==",
       "type": "package",
@@ -3171,16 +3255,24 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.Logging/7.0.0": {
       "sha512": "Nw2muoNrOG5U5qa2ZekXwudUn2BJcD41e65zwmDHb1fQegTX66UokLWZkJRpqSSHXDOWZ5V0iqhbxOEky91atA==",
       "type": "package",
       "path": "microsoft.extensions.logging/7.0.0",
+=======
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "sha512": "9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/6.0.0",
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+<<<<<<< HEAD
         "buildTransitive/net461/Microsoft.Extensions.Logging.targets",
         "buildTransitive/net462/_._",
         "buildTransitive/net6.0/_._",
@@ -3322,10 +3414,24 @@
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
         "microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+=======
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Primitives.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.Primitives.dll",
+        "lib/net461/Microsoft.Extensions.Primitives.xml",
+        "lib/net6.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net6.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Identity.Client/4.45.0": {
       "sha512": "ircobISCLWbtE5eEoLKU+ldfZ8O41vg4lcy38KRj/znH17jvBiAl8oxcyNp89CsuqE3onxIpn21Ca7riyDDrRw==",
       "type": "package",
@@ -3501,6 +3607,8 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
     "Microsoft.IO.RecyclableMemoryStream/2.2.1": {
       "sha512": "T5ahjOqWFMTSb9wFHKFNAcGXm35BxbUbwARtAPLSSPPFehcLz5mwDsKO1RR9R2aZ2Lk1BNQC7Ja63onOBE6rpA==",
       "type": "package",
@@ -3523,6 +3631,7 @@
         "microsoft.io.recyclablememorystream.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.NETCore.Platforms/5.0.0": {
       "sha512": "VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
       "type": "package",
@@ -3656,6 +3765,8 @@
         "version.txt"
       ]
     },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
     "Microsoft.Win32.SystemEvents/6.0.0": {
       "sha512": "hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
       "type": "package",
@@ -3685,6 +3796,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "NETStandard.Library/1.6.1": {
       "sha512": "WcSp3+vP+yHNgS8EV5J7pZ9IRpeDuARBPN28by8zqff1wJQXm26PVU8L3/fYLBJVU7BtDyqNVWq2KlCVvSSR4A==",
       "type": "package",
@@ -4467,6 +4579,8 @@
         "system.diagnostics.tracing.nuspec"
       ]
     },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
     "System.Drawing.Common/6.0.0": {
       "sha512": "NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
       "type": "package",
@@ -4529,6 +4643,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "System.Globalization/4.3.0": {
       "sha512": "kYdVd2f2PAdFGblzFswE4hkNANJBKRmsfa2X5LG2AcWE1c7/4t0pYae1L8vfZ5xvE2nK/R9JprtToA61OSHWIg==",
       "type": "package",
@@ -6062,6 +6177,8 @@
         "version.txt"
       ]
     },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "type": "package",
@@ -6087,6 +6204,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "System.Runtime.Extensions/4.3.0": {
       "sha512": "guW0uK0fn5fcJJ1tJVXYd7/1h5F+pea1r7FLSOz/f8vPEqbR2ZAknuRDvTQ8PzAilDveOxNjSfr0CHfIQfFk8g==",
       "type": "package",
@@ -6649,6 +6767,8 @@
         "system.security.cryptography.openssl.nuspec"
       ]
     },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
     "System.Security.Cryptography.Pkcs/6.0.1": {
       "sha512": "ynmbW2GjIGg9K1wXmVIRs4IlyDolf0JXNpzFQ8JCVgwM+myUC2JeUggl2PwQig2PNVMegKmN1aAx7WPQ8tI3vA==",
       "type": "package",
@@ -6686,6 +6806,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "System.Security.Cryptography.Primitives/4.3.0": {
       "sha512": "7bDIyVFNL/xKeFHjhobUAQqSpJq9YTOpbEs6mR233Et01STBMXNAc/V+BM6dwYGc95gVh/Zf+iVXWzj3mE8DWg==",
       "type": "package",
@@ -6972,6 +7093,8 @@
         "system.text.encoding.nuspec"
       ]
     },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
     "System.Text.Encoding.CodePages/6.0.0": {
       "sha512": "ZFCILZuOvtKPauZ/j/swhvw68ZRi9ATCfvGbk1QfydmcXBkIWecWKn/250UH7rahZ5OoDBaiAudJtPvLwzw85A==",
       "type": "package",
@@ -7011,6 +7134,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "System.Text.Encoding.Extensions/4.3.0": {
       "sha512": "YVMK0Bt/A43RmwizJoZ22ei2nmrhobgeiYwFzC4YAN+nue8RF6djXDMog0UCn+brerQoYVyaS+ghy9P/MUVcmw==",
       "type": "package",
@@ -7079,6 +7203,8 @@
         "system.text.encoding.extensions.nuspec"
       ]
     },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
     "System.Text.Encodings.Web/6.0.0": {
       "sha512": "Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
       "type": "package",
@@ -7159,6 +7285,7 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+<<<<<<< HEAD
     },
     "System.Text.RegularExpressions/4.3.0": {
       "sha512": "RpT2DA+L660cBt1FssIE9CAGpLFdFPuheB7pLpKpn6ZXNby7jDERe8Ua/Ne2xGiwLVG2JOqziiaVCGDon5sKFA==",
@@ -7652,15 +7779,22 @@
         "xlparser.1.5.2.nupkg.sha512",
         "xlparser.nuspec"
       ]
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+<<<<<<< HEAD
       "ClosedXML >= 0.101.0",
       "EPPlus >= 6.2.3",
       "FluentValidation >= 11.5.2",
       "Microsoft.EntityFrameworkCore >= 7.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5"
+=======
+      "EPPlus >= 6.2.3",
+      "FluentValidation >= 11.5.2"
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
     ]
   },
   "packageFolders": {
@@ -7670,11 +7804,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\USER\\Desktop\\Project-QA\\WebApplication5.csproj",
       "projectName": "WebApplication5",
       "projectPath": "C:\\Users\\USER\\Desktop\\Project-QA\\WebApplication5.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\USER\\Desktop\\Project-QA\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5.csproj",
+      "projectName": "WebApplication5",
+      "projectPath": "C:\\Users\\USER\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\source\\repos\\WebApplication5\\WebApplication5\\obj\\",
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7708,10 +7850,13 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+<<<<<<< HEAD
           "ClosedXML": {
             "target": "Package",
             "version": "[0.101.0, )"
           },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
           "EPPlus": {
             "target": "Package",
             "version": "[6.2.3, )"
@@ -7719,6 +7864,7 @@
           "FluentValidation": {
             "target": "Package",
             "version": "[11.5.2, )"
+<<<<<<< HEAD
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -7727,6 +7873,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[7.0.5, )"
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
           }
         },
         "imports": [

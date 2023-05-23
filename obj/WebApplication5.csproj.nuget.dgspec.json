@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\USER\\Desktop\\Project-QA\\WebApplication5.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\USER\\Desktop\\Project-QA\\WebApplication5.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\USER\\Desktop\\Project-QA\\obj\\",
+=======
+    "C:\\Users\\USER\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\USER\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5.csproj",
+        "projectName": "WebApplication5",
+        "projectPath": "C:\\Users\\USER\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\source\\repos\\WebApplication5\\WebApplication5\\obj\\",
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,10 +59,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+<<<<<<< HEAD
             "ClosedXML": {
               "target": "Package",
               "version": "[0.101.0, )"
             },
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
             "EPPlus": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -56,6 +73,7 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[11.5.2, )"
+<<<<<<< HEAD
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -64,6 +82,8 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.5, )"
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
             }
           },
           "imports": [

@@ -1,4 +1,5 @@
 ﻿@model List<Bird>
+<<<<<<< HEAD
 <link rel="stylesheet" href="~/css/yyy.css" />
 <h2>Birds</h2>
 
@@ -34,5 +35,35 @@ else
         </tbody>
     </table>
 }
+=======
+
+<h2>Birds</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Serial Number</th>
+            <th>Species</th>
+            <th>Subspecies</th>
+            <th>Hatch Date</th>
+            <th>Cage Number</th>
+            <th>Master Serial Number</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var bird in Model)
+        {
+            <tr>
+                <td>@bird.SerialNumber</td>
+                <td>@bird.Species</td>
+                <td>@bird.Subspecies</td>
+                <td>@bird.HatchDate</td>
+                <td>@bird.CageNumber</td>
+                <td>@bird.MasterSerialNumber</td>
+            </tr>
+        }
+    </tbody>
+</table>
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
 
 <a href="@Url.Action("Create", "Bird")">Add New Bird</a>

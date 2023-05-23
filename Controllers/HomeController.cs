@@ -2,7 +2,10 @@
 using System.Diagnostics;
 using WebApplication5.Models;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
 namespace WebApplication5.Controllers
 {
     public class HomeController : Controller
@@ -18,6 +21,7 @@ namespace WebApplication5.Controllers
         {
             return View();
         }
+<<<<<<< HEAD
         public IActionResult Login()
         {
             return View();
@@ -46,6 +50,9 @@ namespace WebApplication5.Controllers
         {
             return View();
         }
+=======
+
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
         public IActionResult Privacy()
         {
             return View();
@@ -57,6 +64,10 @@ namespace WebApplication5.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
+<<<<<<< HEAD
 }
 
    
+=======
+}
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978

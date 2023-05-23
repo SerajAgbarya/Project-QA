@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *, *:after, *:before {
     box-sizing: border-box;
 }
@@ -489,3 +490,23 @@ body {
     #login.is-selected, #signup.is-selected, #reset-password.is-selected {
         display: block;
     }
+=======
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978

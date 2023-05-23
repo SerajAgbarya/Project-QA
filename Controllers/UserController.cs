@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using Microsoft.AspNetCore.Mvc;
 using FluentValidation.Results;
 using FluentValidation;
@@ -29,10 +30,24 @@ namespace WebApplication5.Controllers
         }
 
 
+=======
+﻿namespace WebApplication5.Controllers
+{
+    using Microsoft.AspNetCore.Mvc;
+    using FluentValidation.Results;
+    using FluentValidation;
+    using System.Collections.Generic;
+    using System.Linq;
+    using WebApplication5.Models;
+
+    public class UserController : Controller
+    {
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
         public IActionResult Login()
         {
             return View();
         }
+<<<<<<< HEAD
         private bool CheckUserCredentials(string username, string password)
         {
             // Perform your custom logic here to check if the user credentials are valid
@@ -310,12 +325,34 @@ namespace WebApplication5.Controllers
 
             // All validation checks passed, password is valid
             return true;
+=======
+
+        [HttpPost]
+        public IActionResult Login(User user)
+        {
+            UserValidator validator = new UserValidator();
+            ValidationResult results = validator.Validate(user);
+
+            if (results.IsValid)
+            {
+                // TODO: Perform login logic
+                return RedirectToAction("Index", "Home");
+            }
+
+            foreach (ValidationFailure failure in results.Errors)
+            {
+                ModelState.AddModelError(failure.PropertyName, failure.ErrorMessage);
+            }
+
+            return View(user);
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
         }
 
         public IActionResult Register()
         {
             return View();
         }
+<<<<<<< HEAD
        
     }
         
@@ -323,3 +360,28 @@ namespace WebApplication5.Controllers
  
 
 
+=======
+
+        [HttpPost]
+        public IActionResult Register(User user)
+        {
+            UserValidator validator = new UserValidator();
+            ValidationResult results = validator.Validate(user);
+
+            if (results.IsValid)
+            {
+                // TODO: Perform registration logic
+                return RedirectToAction("Index", "Home");
+            }
+
+            foreach (ValidationFailure failure in results.Errors)
+            {
+                ModelState.AddModelError(failure.PropertyName, failure.ErrorMessage);
+            }
+
+            return View(user);
+        }
+    }
+
+}
+>>>>>>> e0c8543973a1f2d6f1d0cfa64a66e60368cea978
